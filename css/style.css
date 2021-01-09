@@ -128,4 +128,9 @@ a.block-lesson-link:active:after {
       font-size: 22px;
       max-width: 90%;
   }
+  
+  video {
+    width: 90%;
+    margin: auto;
+  }
 }
