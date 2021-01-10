@@ -45,7 +45,7 @@ const videoPlayer = (number, name) => {
                 <source src="https://www.dubox.com/play/video?path=%2Fvideo%2F${number}.mkv&t=-1" type="video/mp4">
             </video> --> 
             <a href="https://www.dubox.com/play/video?path=%2Fvideo%2F${number}.mkv&t=-1" target="_blank">
-                  <img class="img-video" src="../img/img-video.jpg">
+                  <img class="img-video" src="../img/imgVideo.jpg">
             </a>
             <div class="links">
                 <a class="block-lesson-link" target="_blank" href="./presentations/${number}.pdf">Презентация</a>
