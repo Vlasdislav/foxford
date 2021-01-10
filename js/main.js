@@ -41,11 +41,14 @@ const videoPlayer = (number, name) => {
         `
         <div class="block-lesson" id=les-${number}>
             <h1 class="block-lesson-name">${name}</h1>
-            <video id="player" width="50%" height="auto" controls>
+            <!-- <video id="player" width="50%" height="auto" controls>
                 <source src="https://www.dubox.com/play/video?path=%2Fvideo%2F0.mkv&t=-1" type="video/mp4">
-            </video>
+            </video> --> 
+            <a href="https://www.dubox.com/play/video?path=%2Fvideo%2F0.mkv&t=-1" target="_blank">
+                  <img src="http://jolochka14.ucoz.ru/smotri_video.jpg" />
+            </a>
             <div class="links">
-                <a class="block-lesson-link" href="./presentations/${number}.pdf">Презентация</a>
+                <a class="block-lesson-link" target="_blank" href="./presentations/${number}.pdf">Презентация</a>
                 <a class="block-lesson-link" href="./tasks/${number}.docx">Задачи</a>
                 <a class="block-lesson-link" href="./theory/${number}.docx">Теория</a>
             </div>
