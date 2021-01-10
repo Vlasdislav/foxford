@@ -129,16 +129,12 @@ a.block-lesson-link:active:after {
       width: 90%;
   }
     
-  .img-video {
+  .img-video, .video, .ads {
       width: 90%;
    }
 
   .block-lesson-name {
       font-size: 22px;
       max-width: 90%;
-  }
-  
-  video {
-    width: 90%;
   }
 }
