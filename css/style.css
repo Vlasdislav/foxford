@@ -27,6 +27,11 @@ a {
   margin-bottom: 5px;
 }
 
+.img-video {
+    width: 70%;
+    height: auto;
+}
+
 .links {
     margin-top: 20px;
 }
