@@ -130,7 +130,7 @@ a.block-lesson-link:active:after {
   }
     
   .img-video, .video, .ads {
-      width: 90%;
+      width: 100%;
    }
 
   .block-lesson-name {
