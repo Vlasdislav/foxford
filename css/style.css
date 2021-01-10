@@ -19,8 +19,8 @@ a {
 }
 
 .lesson>a:hover {
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 2px; 
+    border-bottom: 1px solid #007bff;
+    padding-bottom: 1px; 
 }
 
 .lesson {
